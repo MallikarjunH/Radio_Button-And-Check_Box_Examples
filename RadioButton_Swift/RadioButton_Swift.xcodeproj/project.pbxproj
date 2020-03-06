@@ -64,19 +64,51 @@
 		060BA848235DAD7A00349709 /* RadioButton_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				060BA849235DAD7A00349709 /* AppDelegate.swift */,
-				060BA84B235DAD7A00349709 /* SceneDelegate.swift */,
-				060BA84D235DAD7A00349709 /* ViewController.swift */,
-				060BA863235DB26500349709 /* RadioCell.swift */,
-				060BA85D235DAE8C00349709 /* doctor-woman-Flat-Round-Icon.png */,
+				6C151E14241228AC00CCC998 /* AppDelegate */,
+				6C151E15241228C300CCC998 /* ViewControllers */,
+				6C151E16241228DC00CCC998 /* Cells */,
+				6C151E17241228F300CCC998 /* ImageAssets */,
 				060BA84F235DAD7B00349709 /* Main.storyboard */,
-				060BA85F235DAF5C00349709 /* Radiobutton_Off@2x.png */,
-				060BA860235DAF5C00349709 /* Radiobutton_On@2x.png */,
 				060BA852235DAD9100349709 /* Assets.xcassets */,
 				060BA854235DAD9100349709 /* LaunchScreen.storyboard */,
 				060BA857235DAD9100349709 /* Info.plist */,
 			);
 			path = RadioButton_Swift;
+			sourceTree = "<group>";
+		};
+		6C151E14241228AC00CCC998 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				060BA849235DAD7A00349709 /* AppDelegate.swift */,
+				060BA84B235DAD7A00349709 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6C151E15241228C300CCC998 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				060BA84D235DAD7A00349709 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6C151E16241228DC00CCC998 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				060BA863235DB26500349709 /* RadioCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6C151E17241228F300CCC998 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				060BA85F235DAF5C00349709 /* Radiobutton_Off@2x.png */,
+				060BA860235DAF5C00349709 /* Radiobutton_On@2x.png */,
+				060BA85D235DAE8C00349709 /* doctor-woman-Flat-Round-Icon.png */,
+			);
+			path = ImageAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
