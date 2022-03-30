@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="RadioButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio Using ImageView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQW-ay-akY">
+                                <rect key="frame" x="20" y="73" width="174" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="tls-vp-wYb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radioOff" translatesAutoresizingMaskIntoConstraints="NO" id="rnC-h1-V52">
+                                <rect key="frame" x="20" y="113" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Mba-qu-t5C"/>
+                                    <constraint firstAttribute="height" constant="30" id="NlP-4s-rYB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6V-5P-G0V">
+                                <rect key="frame" x="62" y="118" width="33" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="EfC-oX-N00"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Female" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mW4-gT-dKn">
+                                <rect key="frame" x="62" y="162" width="50" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GhT-ZM-Uqr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio Using UIButton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBC-ec-F1k">
+                                <rect key="frame" x="20" y="216" width="159" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="TC4-5S-p0x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJo-pt-w82">
+                                <rect key="frame" x="62" y="261" width="26.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="J8b-9U-i9z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq0-l8-chs">
+                                <rect key="frame" x="20" y="256" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="ZtQ-pn-1wh"/>
+                                    <constraint firstAttribute="height" constant="30" id="xNh-mP-hcD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="radioOff"/>
+                                <connections>
+                                    <action selector="vegRadioButtonSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NGJ-8b-pS6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfw-7P-VkO">
+                                <rect key="frame" x="20" y="299" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="a4O-OM-MqJ"/>
+                                    <constraint firstAttribute="width" constant="30" id="oaJ-aK-shH"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="radioOff"/>
+                                <connections>
+                                    <action selector="nonVegRadioButtonSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y8Z-4K-zbu"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radioOff" translatesAutoresizingMaskIntoConstraints="NO" id="s18-CX-nRf">
+                                <rect key="frame" x="20" y="156" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="Urc-t3-fxd"/>
+                                    <constraint firstAttribute="height" constant="30" id="j7L-uB-l12"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Non Veg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuK-NA-QT6">
+                                <rect key="frame" x="62" y="305" width="58.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="tvD-iL-F9m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RBC-ec-F1k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3mJ-hb-NVS"/>
+                            <constraint firstItem="cfw-7P-VkO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5Xo-2J-fAk"/>
+                            <constraint firstItem="mW4-gT-dKn" firstAttribute="leading" secondItem="s18-CX-nRf" secondAttribute="trailing" constant="12" id="6bl-7a-GrY"/>
+                            <constraint firstItem="jJo-pt-w82" firstAttribute="top" secondItem="RBC-ec-F1k" secondAttribute="bottom" constant="25" id="O4a-E9-9ke"/>
+                            <constraint firstItem="jJo-pt-w82" firstAttribute="leading" secondItem="Tq0-l8-chs" secondAttribute="trailing" constant="12" id="O5M-WB-vsq"/>
+                            <constraint firstItem="RBC-ec-F1k" firstAttribute="top" secondItem="s18-CX-nRf" secondAttribute="bottom" constant="30" id="Pxf-lf-j28"/>
+                            <constraint firstItem="T6V-5P-G0V" firstAttribute="leading" secondItem="rnC-h1-V52" secondAttribute="trailing" constant="12" id="Qmr-1b-eY2"/>
+                            <constraint firstItem="s18-CX-nRf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TcA-6G-7pl"/>
+                            <constraint firstItem="Tq0-l8-chs" firstAttribute="top" secondItem="RBC-ec-F1k" secondAttribute="bottom" constant="20" id="VMY-08-KSd"/>
+                            <constraint firstItem="rnC-h1-V52" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="act-sE-QCD"/>
+                            <constraint firstItem="kuK-NA-QT6" firstAttribute="top" secondItem="jJo-pt-w82" secondAttribute="bottom" constant="23" id="dan-4R-hWI"/>
+                            <constraint firstItem="DQW-ay-akY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29" id="dey-MO-KDo"/>
+                            <constraint firstItem="cfw-7P-VkO" firstAttribute="top" secondItem="Tq0-l8-chs" secondAttribute="bottom" constant="13" id="mLH-I0-3e1"/>
+                            <constraint firstItem="s18-CX-nRf" firstAttribute="top" secondItem="rnC-h1-V52" secondAttribute="bottom" constant="13" id="mvJ-Fo-6Hj"/>
+                            <constraint firstItem="kuK-NA-QT6" firstAttribute="leading" secondItem="cfw-7P-VkO" secondAttribute="trailing" constant="12" id="pJg-8M-xEh"/>
+                            <constraint firstItem="T6V-5P-G0V" firstAttribute="top" secondItem="DQW-ay-akY" secondAttribute="bottom" constant="25" id="qQg-pc-k5P"/>
+                            <constraint firstItem="DQW-ay-akY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qeG-cs-Sb2"/>
+                            <constraint firstItem="Tq0-l8-chs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uY7-s9-nxv"/>
+                            <constraint firstItem="rnC-h1-V52" firstAttribute="top" secondItem="DQW-ay-akY" secondAttribute="bottom" constant="20" id="x8d-Do-5fK"/>
+                            <constraint firstItem="mW4-gT-dKn" firstAttribute="top" secondItem="T6V-5P-G0V" secondAttribute="bottom" constant="23" id="xBu-Un-6pj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="femaleRadioImg" destination="s18-CX-nRf" id="dQd-fv-kg4"/>
+                        <outlet property="maleRadioImg" destination="rnC-h1-V52" id="ivh-5R-mdZ"/>
+                        <outlet property="nonVegRadioButton" destination="cfw-7P-VkO" id="e9o-IZ-9H8"/>
+                        <outlet property="vegRadioButton" destination="Tq0-l8-chs" id="9PW-OC-UTJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="86"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="radioOff" width="24" height="24"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
