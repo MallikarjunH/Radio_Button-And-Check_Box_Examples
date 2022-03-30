@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CheckBox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeVC" customModule="CheckBox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,6 +67,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="uncheck"/>
+                                <connections>
+                                    <action selector="checkUncheckBoxButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYH-QJ-VDa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -86,6 +89,10 @@
                             <constraint firstItem="Axu-9L-DvC" firstAttribute="leading" secondItem="yaa-R9-5tA" secondAttribute="trailing" constant="10" id="wlZ-JH-3gT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="checkUncheckBoxButton" destination="mlq-jA-E4Z" id="cjq-UO-JSO"/>
+                        <outlet property="checkUncheckBoxImg" destination="yaa-R9-5tA" id="FDO-2q-WEK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
