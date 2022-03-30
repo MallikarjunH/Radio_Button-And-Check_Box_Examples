@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CheckBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checkbox Using ImageView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcQ-H0-VEq">
+                                <rect key="frame" x="20" y="74" width="206" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="pVQ-uk-pSC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uncheck" translatesAutoresizingMaskIntoConstraints="NO" id="yaa-R9-5tA">
+                                <rect key="frame" x="20" y="118" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6xU-MY-Nn9"/>
+                                    <constraint firstAttribute="width" constant="30" id="u45-07-s1z"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accept Terms &amp; Conditions....." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axu-9L-DvC">
+                                <rect key="frame" x="60" y="122" width="207.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="76N-gf-Bdq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checkbox Using UIButton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHE-bG-BYa">
+                                <rect key="frame" x="20" y="188" width="191" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="viR-Jf-Gzj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accept Terms &amp; Conditions....." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zE4-5b-b9y">
+                                <rect key="frame" x="60" y="239" width="207.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FzM-0x-89g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlq-jA-E4Z">
+                                <rect key="frame" x="20" y="233" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4zD-Sc-Bs3"/>
+                                    <constraint firstAttribute="width" constant="30" id="57X-9O-ZkV"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="uncheck"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Axu-9L-DvC" firstAttribute="top" secondItem="YcQ-H0-VEq" secondAttribute="bottom" constant="28" id="17Q-XX-xyJ"/>
+                            <constraint firstItem="zE4-5b-b9y" firstAttribute="leading" secondItem="mlq-jA-E4Z" secondAttribute="trailing" constant="10" id="1Xf-mA-8pf"/>
+                            <constraint firstItem="zE4-5b-b9y" firstAttribute="top" secondItem="aHE-bG-BYa" secondAttribute="bottom" constant="31" id="DRa-7T-9VI"/>
+                            <constraint firstItem="mlq-jA-E4Z" firstAttribute="top" secondItem="aHE-bG-BYa" secondAttribute="bottom" constant="25" id="ELe-vQ-Goy"/>
+                            <constraint firstItem="YcQ-H0-VEq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="R2v-pk-xFB"/>
+                            <constraint firstItem="YcQ-H0-VEq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Vc1-vW-0Lh"/>
+                            <constraint firstItem="mlq-jA-E4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ebc-ZD-g2I"/>
+                            <constraint firstItem="aHE-bG-BYa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hM1-l9-otu"/>
+                            <constraint firstItem="yaa-R9-5tA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kEZ-2e-419"/>
+                            <constraint firstItem="aHE-bG-BYa" firstAttribute="top" secondItem="yaa-R9-5tA" secondAttribute="bottom" constant="40" id="rYf-bi-BiV"/>
+                            <constraint firstItem="yaa-R9-5tA" firstAttribute="top" secondItem="YcQ-H0-VEq" secondAttribute="bottom" constant="24" id="vts-XO-llo"/>
+                            <constraint firstItem="Axu-9L-DvC" firstAttribute="leading" secondItem="yaa-R9-5tA" secondAttribute="trailing" constant="10" id="wlZ-JH-3gT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="uncheck" width="24" height="24"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
